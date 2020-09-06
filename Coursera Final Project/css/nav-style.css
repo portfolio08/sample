@@ -1,0 +1,255 @@
+body{
+    background-image: url(../image/page-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    padding-top: 0;
+    background-color: #32811f;
+    width:23%;
+    height: 100vh;
+    margin-left: 2%;
+    display: inline-block;
+    padding: 0;
+}
+h4 {
+    color:white;
+}
+p{
+    color: white;
+}
+ul{
+    color: white; 
+}
+.img-fluid {
+   width: 50%;
+    margin-left: 20%;
+}
+.intro {
+    display: inline-block;
+    width:67%;
+    float: right;
+    background-color: black;
+    margin-right:2%;
+    margin-left: 2%;
+    padding: 0 0 0 2%;
+    background-color: transparent;
+}
+.heading {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+     border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 15px 0 15px 0;
+    display: block;
+}
+span 
+{
+   text-transform: uppercase;
+    text-decoration: underline;
+}
+.image {
+    padding: 5% 0 0 0;
+    margin-left: 10%;
+}
+h4{
+    text-align: center;
+}
+.student {
+    text-align: center;
+}
+.main-nav {
+    text-align: center;
+    display: block;
+}
+
+.link:hover
+{
+     background-color: #ffffff;
+    color:#32811f;
+    text-decoration: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.active
+{
+    background-color: #ffffff;
+    color: #32811f;
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color:#32811f; 
+}
+.fa
+{
+    margin-left: 8%;
+    padding: 6%;
+    font-size: 2.5rem;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    color: white;
+    background-color:#32811f;
+}
+.social-network {
+    margin-top: 60px;
+}
+.fa:hover
+{
+    text-decoration:none;
+    color: #285898;
+}
+.fa:nth-child(2):hover
+{
+    text-decoration: none;
+    color: #d0281a;
+}
+.fa:active
+{
+    color:#32811f;
+}
+.main-nav {
+    margin-top: 50px;
+}
+
+.left-image {
+    border-radius: 10px;
+    width: 100%;
+    float: left;
+}
+
+.left {
+    display: inline-block;
+    margin-top:80px;
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+.about-my-education {
+    margin-top: 80px;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
+    width: 48%;
+}
+
+.University {
+    text-decoration: none;
+    color: white;
+}
+.university-link
+{
+    color: #ffffff;
+}
+.university-link:hover {
+    color:#ffffff;
+    text-decoration-color: #32811f;
+}
+
+@media screen and (max-width:768px)
+{
+    .image
+    {
+        display:none;
+    }
+    .container
+    {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        max-width: none;
+    }
+    .container a
+    {
+        float: left;
+    }
+    div.intro
+    {
+        margin-left: 2%;
+        float: left;
+        width: 100%;
+    }
+    .author-content
+    {
+        display: none;
+    }
+    .social-network
+    {
+        margin-top: 0;
+        display: inline-block;
+        float: right;
+        width: 115px;
+    }
+    .fa
+    {
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 12px; 
+    }
+    .fa:nth-child(3)
+    {
+        margin-right: 10px;
+    }
+    .main-nav
+    {
+        margin-top: 0;
+    }
+    .link
+    {
+        border: 0;
+        padding:15px 20px 15px 20px; 
+    }
+    .link:hover
+    {
+        background-color: #ffffff;
+        color: #32811f;
+    }
+    .left
+    {
+        width: 80%;
+        margin-left: 8%;
+        border: 2px solid blue;
+        border-radius: 8px;
+    }
+    .about-my-education
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .link
+    {
+        display: block;
+        width:100%;
+    }
+    .social-network
+    {
+        float:none;
+        width:100%;
+    }
+    .fa
+    {
+        margin-left: 10%;
+    }
+    .fa:hover
+    {
+        background-color:  #285898;
+    }
+
+}
+
+

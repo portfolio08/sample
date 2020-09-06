@@ -1,0 +1,38 @@
+div{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: darkturquoise;
+    padding: 20px;
+    border: 1px solid #000000;
+    transform: 3s ease;
+}
+div:hover
+{
+    transform: 10s ease;
+     -moz-transform: rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform :rotate (360deg);
+    transform: rotate(360deg);
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+  
+}
+div:focus
+{
+    background-color:yellow;
+    width: 125px;
+    height: 125px;
+   
+}
+.one{
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    position:absolute;
+    top: 200px;
+    left: 500px;
+    
+}

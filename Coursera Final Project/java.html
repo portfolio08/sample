@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello Web</title>
+        <style>
+            button
+            {
+                color: white;
+                background-color: black;
+                border: 2px;
+                margin-left: 5px;
+                border-style: outset;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        </style>
+    </head>
+    <body  id="pass" onload ='load()'>
+        <script>
+            var name=prompt("Enter your name");
+            document.write(name);
+            var date=Date();
+            document.write(date);
+            var loc=window.location;
+            document.write(loc);
+            function closeme()
+            {
+                var x=document.getElementById('demo');
+                x.style.display='none';
+            }
+             function openme()
+            {
+                var x=document.getElementById('demo');
+                x.style.display='block';
+            }
+            var fruits=['banana', 'kiwi', 'apples', 'mango','tomato'];
+            function load()
+            {
+                var pass=prompt("Enter password !");
+                if(pass!="sonam1211")
+                {
+                document.getElementById("pass").style.display="none";
+                    document.write('Wrong password you connot acces this page sorry!');
+                }
+                document.getElementById("fruits").innerHTML=fruits;
+            }
+            function myfunction()
+            {
+                var fruit=prompt('what is your fav fruits');
+                fruits[fruits.length]=fruit;
+                document.getElementById("fruits").innerHTML=fruits;
+            }
+            function check()
+            {
+                var email1=document.getElementById("email");
+                var email2=document.getElementById("recheck");
+                if(email1.Value!=email2.Vlaue) 
+                {
+                    alert("Two email must match !");
+                    return false;
+                }else return true;
+            }
+        </script>
+        <h1> Modify Dom</h1>
+       <button  onclick="document.getElementById('stuff').innerHTML='click first button';">First</button>
+        <button onclick="document.getElementById('stuff').innerHTML='click Second button';">Second</button>
+        <p id="stuff">hello world</p>
+        
+        <button  onclick="openme()">open!</button>
+        <button  onclick="closeme()">close!</button>
+        <p id="demo"> hello my name sonam i am currently working on java script and i have dome html and css</p>
+        <button onclick="myfunction()"> add your fruits</button>
+        <p id="fruits"> </p>
+        
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="name"> Name</label>
+            <input type="text" id="name"  required><br>
+            <label >Email:<input type="email" name="email" id=" email" placeholder="M@m2@.gmail.com" required> </label><br>
+            <label>Conform Email:<input type=email id="recheck" required onchange="check()" ></label>
+                <label for="birth">Birth </label>
+                <input type="date" id="birth" value="birth"><br>
+            <lable> Gender:</lable><br>
+            
+            <lable > <input type="radio" id="male" name=" gender" value="Male"> Male</lable><br>
+            
+            <lable ><input type="radio" id="female" name=" gender"value="female"> Female</lable><br>
+            <br>
+            <input type="number" min="1" max="100"><br>
+            <input type="color"><br>
+             <input type="submit" value="Submit" onclick="return check()">
+            
+        </fieldset>
+        
+    </body>
+</html>

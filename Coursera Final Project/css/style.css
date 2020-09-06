@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+body
+{
+    font-family: inherit;
+    background-color: lightblue;
+}
+h1{
+    text-transform: uppercase;
+    padding-top: 2%;
+   color: white;
+    text-align: center;
+}
+nav{
+    font-variant:small-caps;
+}
+header,figure{
+    background-color:aquamarine;
+    background-image: linear-gradient(blue,aqua ,blue);
+}
+a{
+    color:black;
+    display: inline-block;
+    font-size: bold;
+    background-color:floralwhite;
+    text-decoration: none;
+    font-weight: bold;
+    width:19%;
+}
+a:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+a:focus
+{
+       color: aliceblue;
+    background-color: blue;   
+}
+a:active{
+    border: 3px solid blue;
+}
+h2{
+    color: aliceblue;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: blue;
+}
+
+figure{
+    clear: both;
+}
+.half{
+    width:48%;
+	margin-right: 2%;
+	display:inline-block;
+    float: left;
+	
+}
+.whole{
+    display:block;
+    clear: both;
+}
+ul
+{
+    list-style-type: square;
+    font-weight: bold;
+}
+summary {
+    font-weight: bold;
+}
+
+.social-network {
+    margin-top: 60px;
+}

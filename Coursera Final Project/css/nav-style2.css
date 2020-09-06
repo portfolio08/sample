@@ -1,0 +1,253 @@
+body{
+    background-image: url(../image/page-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container1{
+    box-sizing: border-box;
+    padding-top: 0;
+    background-color: #32811f;
+    width:23%;
+    height: 100vh;
+    margin-left: 2%;
+    display: inline-block;
+    padding: 0;
+    
+}
+h4 {
+    color:white;
+     text-align: center;
+}
+p{
+    color: white;
+}
+ul{
+    color: white; 
+}
+.img-fluid {
+   width: 50%;
+    margin-left: 20%;
+}
+.intro{
+    display: inline-block;
+    width:67%;
+    float: right;
+    background-color: black;
+    margin-right:2%;
+    margin-left: 2%;
+    padding: 0 0 0 2%;
+    background-color: transparent;
+}
+.heading {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+     border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 15px 0 15px 0;
+    display: block;
+}
+span 
+{
+   text-transform: uppercase;
+    text-decoration: underline;
+}
+}
+.image {
+    padding:5% 0 0 0;
+    margin-left: 10%;
+}
+.student {
+    text-align: center;
+}
+.main-nav {
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+
+.link:hover
+{
+     background-color: #ffffff;
+    color: #32811f;
+    text-decoration: none;
+     border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.active
+{
+    background-color: #ffffff;
+    color:#32811f;
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color:#32811f; 
+    color: white;
+    text-align: center;
+}
+
+.fa
+{
+    margin-left: 8%;
+    padding: 6%;
+    font-size: 2.5rem;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    color: white;
+    background-color:#32811f;
+}
+.social-network {
+    margin-top: 60px;
+}
+.fa:hover
+{
+    text-decoration:none;
+    color: #285898;
+}
+.fa:active
+{
+    color: #285898;
+}
+.right-content
+{
+    display: inline-block;
+    width: 72%;
+    float: right;
+    height: 100vh;
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.centre
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+ color: blue;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border:2px solid blue;
+
+}
+
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+@media screen and (max-width:769px)
+{
+    .image
+    {
+        display:none;
+    }
+    .container1
+    {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        max-width: none;
+    }
+    .container1 a
+    {
+        float: left;
+    }
+    div.intro
+    {
+        margin-left: 2%;
+        float: left;
+        width: 100%;
+    }
+    .author-content
+    {
+        display: none;
+    }
+    .social-network
+    {
+        margin-top: 0;
+        display: inline-block;
+        float: right;
+        width: 115px;
+    }
+    .fa
+    {
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 12px; 
+    }
+    .fa:nth-child(3)
+    {
+        margin-right: 10px;
+    }
+    .main-nav
+    {
+        margin-top: 0;
+    }
+    .link
+    {
+        border: 0;
+        padding:15px 20px 15px 20px; 
+    }
+    .left
+    {
+        width: 80%;
+        margin-left: 8%;
+        border: 2px solid blue;
+        border-radius: 8px;
+    }
+    .about-my-education
+    {
+        width: 100%;
+    }
+    .right-content
+    {
+        width: 98%;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .link
+    {
+        display: block;
+        width:100%;
+    }
+    .social-network
+    {
+        float:none;
+        width:100%;
+    }
+    .fa
+    {
+        margin-left: 10%;
+    }
+    .fa:hover
+    {
+        background-color:  #285898;
+    }
+
+}
+

@@ -1,0 +1,99 @@
+*
+{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px; 
+}
+table,tr,td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+nav
+{
+    box-sizing: border-box;
+    width: 20%;
+    display: inline-block;
+    height: 100vh;
+    overflow: auto;
+    background-color: red;
+    border-radius:10px;
+}
+nav a
+{
+    display: inline-block;
+    line-height: 45px;
+    height: 40px;
+    width: 40%;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px 10px 10px 50px;
+}
+nav a:hover
+{
+    background-color: coral;
+}
+nav a:active
+{
+    background-color: firebrick;
+}
+th
+{
+    background-color: silver;
+}
+table
+{
+    width: 800px;
+    height: 400px;
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 25px 25px 0 0;
+    float: left;
+}
+tr:nth-child(even)
+{
+    background-color: lightgreen;
+}
+tr:nth-child(odd)
+{
+    background-color: lightcyan;
+}
+.old
+{
+    opacity: 0.5;
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+}
+caption 
+{
+   text-transform: uppercase;
+    color:antiquewhite;
+    background-color: black;
+    font-size: 150%;
+    border-radius: 25px 25px 0 0;
+}
+tr:last-child
+{
+    -webkit-border-radius: 25px 25px 0 0;
+    border-radius: 0 0 25px 25px;
+}
+tr:last-child>td:last-child
+{
+    -webkit-border-radius: 0 0 25px 0;
+    border-radius: 0 0 25px 0;
+}
+tr:last-child>td:first-child
+{
+    -webkit-border-radius: 0 0 0 25px;
+    border-radius: 0 0 0 25px;
+}
+
+td:hover{
+    background-color:lime;
+}
+.old:hover
+{
+    opacity: 1;
+}
+

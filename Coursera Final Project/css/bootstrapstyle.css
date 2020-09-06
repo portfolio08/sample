@@ -1,0 +1,36 @@
+div[class^="visible"]
+{
+    border: 1px solid black;
+    margin-top: 10%;
+}
+div[class$=lg]
+{
+    text-align: center;
+    font-size:150%;
+    height: 100px;
+    background-color: aqua;
+}
+div[class$=md]
+{
+    font-size: 150%;
+    text-align: center;
+    height: 80px;
+    background-color: fuchsia;
+    color: chartreuse;
+}
+div[class$=xm]
+{
+    font-size: 150%;
+    text-align: center;
+    height: 60px;
+    background-color: firebrick;
+    color: darkgreen;
+}
+div[class$=sm]
+{
+    font-size: 150%;
+    text-align: center;
+    height: 60px;
+    background-color: blue;
+    color: darkgreen;
+}

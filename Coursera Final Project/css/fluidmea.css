@@ -1,0 +1,76 @@
+*
+{
+    padding: 10px;
+}
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 220%;
+    color: #000000;
+    background-color: silver;
+    height: 100px;
+    padding-top: 50px;
+    border: solid black;
+}
+h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+}
+nav
+{
+    height:auto;
+    width: 100%;
+    background-color: silver;
+    border-radius: 2px;
+}
+nav a
+{
+    line-height: 30px;
+    box-sizing: border-box;
+    color: wheat;
+    background-color: black;
+    border-radius: 10px;
+    height:50px;
+    margin: 1% 2%;
+    padding: 1% 2%;
+    text-decoration: none;
+}
+a:hover
+{
+    color: lightblue;
+    text-decoration:underline;
+}
+@media only screen and (min-width:700px)
+{
+    div.column
+    {
+        margin-right: 1%;
+        width: 23%;
+        display: inline-block;
+    }
+    nav
+    {
+         box-sizing: border-box;
+        border: solid;
+        display: inline-block;
+        height: 120vh;
+        width: 18%;
+        float: left;
+    }
+    nav a
+    {
+       
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        font-size:150%;
+    }
+    .one
+    {
+        margin-left: 20%;
+    }
+}
