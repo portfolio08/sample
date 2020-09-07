@@ -13,11 +13,9 @@ body{
     margin-left: 2%;
     display: inline-block;
     padding: 0;
-    
 }
 h4 {
     color:white;
-     text-align: center;
 }
 p{
     color: white;
@@ -29,7 +27,7 @@ ul{
    width: 50%;
     margin-left: 20%;
 }
-.intro{
+.intro {
     display: inline-block;
     width:67%;
     float: right;
@@ -57,35 +55,36 @@ span
    text-transform: uppercase;
     text-decoration: underline;
 }
-}
 .image {
-    padding:5% 0 0 0;
+    padding: 5% 0 0 0;
     margin-left: 10%;
+}
+h4{
+    text-align: center;
 }
 .student {
     text-align: center;
 }
 .main-nav {
-    margin-top: 50px;
     text-align: center;
     display: block;
+    margin-top: 50px;
 }
 
 .link:hover
 {
      background-color: #ffffff;
-    color: #32811f;
+    color:#32811f;
     text-decoration: none;
-     border-top: 1px solid black;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 .active
 {
     background-color: #ffffff;
-    color:#32811f;
+    color: #32811f;
     text-decoration: none;
 }
-
 h2 {
     text-decoration: underline;
     text-decoration-color:#32811f; 
@@ -104,6 +103,9 @@ h2 {
     border-radius:50%;
     color: white;
     background-color:#32811f;
+}
+.fa:nth-child(2):hover{
+    color:#d0281a;
 }
 .social-network {
     margin-top: 60px;
